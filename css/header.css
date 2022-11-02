@@ -1,11 +1,19 @@
-/* Header/Blog Title */
+/* Header */
 .header {
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     background: #625B9E;
+    margin-top:20px;
+    margin-bottom: 20px;
     border-radius: 25px;
   }
-  
-  .header h1 {
+
+.header h1 {
     font-size: 50px;
-  }
+    font-family: Pro-Black;
+}
+
+.header h2 {
+  font-size: 22px;
+  font-family: Pro-Extra-Bold;
+}

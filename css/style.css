@@ -7,25 +7,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #40416F;
-  font-family: FF Uberhand;
-
-  /* font-family: 'Catamaran', sans-serif; */
+  font-family: Pro-Medium;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
+  min-height: 100vh;
   color: #fff1c4;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.center {
-  width: 25%;
-  min-width: 125px;
-}
-
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
